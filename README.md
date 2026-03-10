@@ -68,10 +68,17 @@ Terakhir, print() digunakan untuk menampilkan jumlah mahasiswa yang lulus dan ti
 <img width="530" height="285" alt="image" src="https://github.com/user-attachments/assets/59105d0f-97a4-403c-a512-350bc083e8eb" />
 
 Baris import matplotlib.pyplot as plt berfungsi untuk mengimpor library Matplotlib yang digunakan untuk membuat visualisasi grafik.
+
 plt.figure() digunakan untuk membuat area grafik baru sebelum menampilkan diagram.
+
 Kategori = ["Lulus", "Tidak Lulus"] dibuat array (list) yang berisi dua kategori yang akan ditampilkan pada sumbu X grafik.
+
 Kemudian data = [lulus, tidak_lulus] merupakan array yang berisi jumlah mahasiswa yang lulus dan tidak lulus berdasarkan perhitungan sebelumnya.
+
 Baris plt.bar(kategori, data, color=["green", "red"]) digunakan untuk membuat grafik batang, di mana kategori menjadi label pada sumbu X dan data menjadi tinggi batang pada sumbu Y, dengan warna hijau untuk lulus dan merah untuk tidak lulus.
+
 Selanjutnya plt.title("Grafik Data Kelulusan Mahasiswa") digunakan untuk memberikan judul pada grafik, dan plt.ylabel("Jumlah Mahasiswa") untuk memberi label pada sumbu Y.
+
 Baris plt.ylim(0,10) digunakan untuk mengatur batas nilai pada sumbu Y dari 0 sampai 10 agar grafik lebih jelas.
+
 Terakhir plt.show() berfungsi untuk menampilkan grafik ke layar sehingga pengguna dapat melihat visualisasi jumlah mahasiswa yang lulus dan tidak lulus.
