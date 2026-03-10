@@ -82,3 +82,47 @@ Selanjutnya plt.title("Grafik Data Kelulusan Mahasiswa") digunakan untuk memberi
 Baris plt.ylim(0,10) digunakan untuk mengatur batas nilai pada sumbu Y dari 0 sampai 10 agar grafik lebih jelas.
 
 Terakhir plt.show() berfungsi untuk menampilkan grafik ke layar sehingga pengguna dapat melihat visualisasi jumlah mahasiswa yang lulus dan tidak lulus.
+
+# 2. Screenshot Hasil Eksekusi
+# input 10 nilai mahasiswa
+
+<img width="779" height="437" alt="image" src="https://github.com/user-attachments/assets/caf5f789-4bf0-4404-b7e7-2bcd1aff53f1" />
+
+
+# nilai tertinggi dan terendah
+<img width="777" height="218" alt="image" src="https://github.com/user-attachments/assets/bdbe937e-e676-4bba-a3fc-440e77b3f6f5" />
+
+
+# Hitung rata-rata
+<img width="740" height="155" alt="image" src="https://github.com/user-attachments/assets/65e5d3aa-406b-4e8a-a10a-5c22315bba4d" />
+
+
+# Hitung jumlah mahasiswa lulus (>= 60)
+
+<img width="608" height="345" alt="image" src="https://github.com/user-attachments/assets/56182e1a-d716-4827-ab5f-533a385fd642" />
+
+
+# Grafik untuk menggambarkan nilai tertinggi dan terendah
+
+<img width="707" height="330" alt="image" src="https://github.com/user-attachments/assets/0f730d93-b86c-4a75-bbaf-7b4da029b978" />
+
+<img width="895" height="585" alt="image" src="https://github.com/user-attachments/assets/c0c06862-f6ad-492d-ae9e-3a141e16376e" />
+
+
+# Grafik untuk menggambarkan data kelulusan
+
+<img width="789" height="293" alt="image" src="https://github.com/user-attachments/assets/4963d245-349b-4832-a956-2f9d8b0e8e3a" />
+
+<img width="982" height="582" alt="image" src="https://github.com/user-attachments/assets/973ebc44-1627-4c2f-9729-f3f38d4b2bc2" />
+
+
+
+# 3. Analisis Kompleksitas
+# 4. Refleksi Pembelajaran
+Saya memahami bagaimana menggunakan array (list) untuk menyimpan dan mengelola data.
+
+Saya juga belajar cara melakukan input data menggunakan perulangan dan menyimpan data tersebut ke dalam array dengan fungsi append().
+
+Memahami cara melakukan pengolahan data sederhana, seperti mencari nilai tertinggi dengan max(), nilai terendah dengan min(), dan menghitung rata-rata menggunakan sum() dan len().
+
+Belajar membuat visualisasi data menggunakan library Matplotlib, seperti grafik batang untuk menampilkan perbandingan data nilai dan kelulusan mahasiswa. Selain itu juga belajar cara merubah warna pada grafik menggunakan plt.bar(kategori, data, color=[].
