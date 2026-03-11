@@ -115,9 +115,18 @@ Terakhir plt.show() berfungsi untuk menampilkan grafik ke layar sehingga penggun
 
 <img width="982" height="582" alt="image" src="https://github.com/user-attachments/assets/973ebc44-1627-4c2f-9729-f3f38d4b2bc2" />
 
-
-
 # 3. Analisis Kompleksitas
+
+Pada bagian input nilai mahasiswa, program menggunakan perulangan for untuk memasukkan nilai ke dalam list. Karena proses ini dilakukan sebanyak jumlah data mahasiswa (n), maka kompleksitas waktunya adalah O(n).
+
+Pada bagian mencari nilai tertinggi dan nilai terendah menggunakan fungsi max() dan min(). Kedua fungsi ini harus memeriksa seluruh data dalam list sehingga kompleksitas waktunya adalah O(n).
+
+Selanjutnya pada perhitungan rata-rata, program menggunakan sum() untuk menjumlahkan semua nilai dan len() untuk menghitung jumlah data. Karena sum() memproses semua data, maka kompleksitasnya adalah O(n).
+
+Pada proses menghitung jumlah mahasiswa yang lulus dan tidak lulus, program menggunakan perulangan untuk memeriksa setiap nilai. Karena semua data diperiksa satu per satu, maka kompleksitasnya juga O(n).
+
+Sedangkan pada pembuatan grafik menggunakan matplotlib, data yang ditampilkan hanya beberapa kategori saja sehingga kompleksitas waktunya adalah O(1).
+
 # 4. Refleksi Pembelajaran
 Saya memahami bagaimana menggunakan array (list) untuk menyimpan dan mengelola data.
 
